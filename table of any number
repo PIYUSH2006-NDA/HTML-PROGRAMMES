@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter theh number:-");
+    scanf("%d",&a);
+    for(b=1;b<=10;b++)
+    {
+        c=a*b;
+        printf("\n%dx%d=%d",a,b,c);
+    }
+    return 0;
+}
