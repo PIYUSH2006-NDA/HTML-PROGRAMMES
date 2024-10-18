@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>triangle</title>
+    <center><b><i><font face="Algerian"><br>
+    IDENTIFY THE  TYPE  OF TRIANGLE<BR>
+    <script language="JavaScript">
+    var s1,s2,s3;
+    s1=(prompt("enter the value of side 1:-"));
+    s2=(prompt("enter the value of side 2:-"));
+    s3=(prompt("enter the value of side 3:-"));
+    if (s1==s2 && s2==s3)
+    {
+      document.write("it is an equilateral");
+    }
+    else if(s1!=s2 && s2!=s3){
+    document.write("it is a Scalene triangle ");}
+    
+    else if(s1==s2 && s2!=s3 || s2==s3 && s2!=s3 ||s1==s3 && s3!=s2){
+      document.write("it is isosceles triangle");}
+     
+    </script>
+    </head>
+    </html>
